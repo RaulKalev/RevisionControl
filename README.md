@@ -24,7 +24,7 @@ A lightweight, user-friendly Revit add-in for bulk managing sheet revisions.
 - **Revit 2022+**
 - [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 - [MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) (already referenced in the project)
-- [ricaun.Revit.UI](https://github.com/ricaun-io/Revit-UI)
+- [ricaun.Revit.UI](https://github.com/ricaun-io)
 
 ### Installation
 
@@ -73,4 +73,4 @@ See [LICENSE](LICENSE) for details.
 ## Credits
 
 - UI powered by [MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)
-- Ribbon integration via [ricaun.Revit.UI](https://github.com/ricaun-io/Revit-UI)
+- Ribbon integration via [ricaun.Revit.UI](https://github.com/ricaun-io)
