@@ -7,7 +7,7 @@
     <BaseOutputPath>C:\Users\mibil\OneDrive\Desktop\DevDlls\RevisionControl</BaseOutputPath>
   </PropertyGroup>
 	<ItemGroup>
-		<EmbeddedResource Include="Resources/AllDevices.tiff" />
+		<EmbeddedResource Include="Resources/RevisionControl.tiff" />
 	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="Costura.Fody" Version="6.0.0">
@@ -36,7 +36,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
 		<ItemGroup>
-			<Resource Include="Resources/AllDevices.tiff">
+			<Resource Include="Resources/RevisionControl.tiff">
 				<CopyToOutputDirectory>Never</CopyToOutputDirectory>
 			</Resource>
 		</ItemGroup>

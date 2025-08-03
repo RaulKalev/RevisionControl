@@ -13,14 +13,14 @@ namespace RevisionControl
         public Result OnStartup(UIControlledApplication application)
         {
             const string tabName = "RK Tools";
-            const string panelName = "Small Tools";
+            const string panelName = "Tools";
 
             try { application.CreateRibbonTab(tabName); } catch { }
             ribbonPanel = application.CreateOrSelectPanel(tabName, panelName);
 
             // Create the buttons
-            ribbonPanel.CreatePushButton<Command>("Versiooni Nr.")
-                .SetLargeImage("Resources/AllDevices.tiff")
+            ribbonPanel.CreatePushButton<Command>("Versiooni\nNr.")
+                .SetLargeImage("Resources/RevisionControl.tiff")
                 .SetToolTip("Set revision nr.")
                 .SetContextualHelp("https://raulkalev.github.io/rktools/");
 
